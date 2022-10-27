@@ -1,7 +1,7 @@
 
 # Portfolio
 
-> First microverse project
+> Portfolio Project
 
 ## Built With
 
