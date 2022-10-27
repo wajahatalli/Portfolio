@@ -6,7 +6,17 @@
 ## Built With
 
 -   HTML, CSS
--   linters
+
+## Getting Started
+
+- Click on the clone button to copy the clone
+- Open Terminal and run git clone "copied link"
+- Clone the repo
+- From your terminal run " code ." to open in your code editor.
+
+## Sneak peek to my Portfolio Project
+
+- Portfolio: [Wajahat Ali](https://github.com/wajahatalli/Portfolio)
 
 ## Authors
 
