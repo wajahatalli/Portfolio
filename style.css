@@ -1,3 +1,7 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
 .logo {
   font-style: normal;
   font-weight: 700;
@@ -20,7 +24,6 @@ a {
 }
 
 body {
-  font-family: "Poppins", sans-serif;
   padding: 0;
   width: 100%;
   height: 100%;
@@ -44,7 +47,7 @@ ul {
 }
 
 .headline {
-  background-image: url(assets/images/Background.png);
+  background-image: url(assets/images/header-shapes-mobile.png);
   width: 100vw;
   height: 90vh;
   background-color: #fff;
@@ -352,86 +355,97 @@ h2 {
   gap: 15px;
 }
 
-.form_section {
-  background-image: url(assets/images/contact-me.png);
+.contact-form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-image: url(assets/images/background2.png);
+  background-color: #6070ff;
   background-repeat: no-repeat;
-  background-size: cover;
-  margin: 0;
+  background-size: 70%;
+  background-position-x: right;
+  background-position-y: 20px;
+  border-radius: 90px 0 0 0;
+  padding-top: 103px;
 }
 
-.styling {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-}
-
-.form_heading {
-  color: white;
+.contact-title {
   text-align: center;
-  width: 100%;
-  padding-top: 5rem;
+  font-size: 40px;
+  color: white;
+  margin-bottom: 20px;
 }
 
-.form_desc {
-  color: white;
-  text-align: center;
-  width: 100%;
-  font-family: "Poppins", sans-serif;
+.p-contact {
   font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
+  font-weight: 300;
+  font-size: 18px;
   line-height: 28px;
-  padding: 60px 24px 20px 24px;
+  text-align: center;
+  color: #ebebff;
+  text-align: center;
+  padding: 24px;
 }
 
-input {
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 15px;
-  height: 48px;
-  padding: 10px;
-  left: 0;
-  right: 0;
-  top: calc(50% - 48px / 2);
-  background: #fff;
-  border: 1px solid #cfd8dc;
-  border-radius: 8px;
-  width: 90%;
-  margin: 1rem;
-}
-
-textarea {
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 15px;
-  left: 6.4%;
-  right: 6.4%;
-  top: 94.73%;
-  bottom: 2.13%;
-  background: #fff;
-  border: 1px solid #cfd8dc;
-  border-radius: 8px;
-  padding: 10px;
-  width: 90%;
-  margin: 1rem;
-}
-
-.options {
+.contact-info {
   display: flex;
-  width: 100%;
   flex-direction: column;
-  align-items: center;
+  padding: 20px 5px 5px 5px;
 }
 
-.button {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  background: #fff;
+.inp-form {
+  width: 100%;
+  height: 43px;
+  margin-bottom: 20px;
   border-radius: 8px;
-  width: 35%;
-  margin: 1rem 0 3.3rem 1.3rem;
+  font-size: 17px;
+  border: none;
+  color: #172b4d;
+  padding: 10px 15px;
+}
+
+.hidden {
+  display: none;
+}
+
+.text-area {
+  width: 100%;
+  height: 160px;
+  font-size: 17px;
+  color: #172b4d;
+  margin-bottom: 20px;
+  background: #fff;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  padding: 10px 15px;
+}
+
+.contact-bar {
+  text-align: center;
+}
+
+.btncontact {
+  width: 140px;
+  height: 48px;
+  color: #6070ff;
+  align-self: flex-start;
+  border-radius: 8px;
+  border: none;
+  font-size: 17px;
+  font-weight: 500;
+  background-color: white;
+}
+
+.btncontact:hover {
+  background-color: #6070ff;
+  border: 1px solid white;
+  color: white;
+  font-size: 17px;
+  transition: 100ms;
+  cursor: pointer;
+}
+
+.end-line {
+  margin-top: 30px;
+  margin-bottom: 2px;
 }
