@@ -183,6 +183,16 @@ html {
   align-self: center;
 }
 
+.Tonic:hover {
+  transform: scale(1.03);
+  transition: 1.2s ease-in;
+}
+
+.Snapshoot:hover {
+  transform: scale(1.03);
+  transition: 1.2s ease-in;
+}
+
 h2 {
   width: 295px;
   height: 36px;
@@ -416,10 +426,6 @@ h2 {
   padding: 10px 15px;
 }
 
-.contact-bar {
-  text-align: center;
-}
-
 .btncontact {
   width: 140px;
   height: 48px;
@@ -439,9 +445,4 @@ h2 {
   font-size: 17px;
   transition: 100ms;
   cursor: pointer;
-}
-
-.end-line {
-  margin-top: 30px;
-  margin-bottom: 2px;
 }
