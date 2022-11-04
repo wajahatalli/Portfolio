@@ -3,49 +3,49 @@
     height: 100%;
     width: 100%;
   }
-  
+
   #fixed {
     position: fixed;
     top: 0;
     width: 100%;
     background-color: white;
   }
-  
+
   .mobile_menu_icon {
     display: none;
   }
-  
+
   .header {
     display: flex;
     justify-content: space-between;
     padding: 0 50px;
   }
-  
+
   .logo {
     width: 150px;
     height: 30px;
     font-size: 20px;
   }
-  
+
   .social a {
     padding: 15px 25px 15px 10px;
   }
-  
+
   .desktop-nav {
     display: flex;
     float: left;
     align-items: center;
   }
-  
+
   .desktop-nav ul li {
     display: inline-flex;
     padding: 0 20px;
   }
-  
+
   .desktop-nav ul li a {
     color: #344563;
   }
-  
+
   .hero {
     background-image: url(./assets/desktop/Header/bg.svg);
     background-repeat: no-repeat;
@@ -55,7 +55,7 @@
     border-bottom-left-radius: 100px;
     height: 750px;
   }
-  
+
   .author {
     margin-left: 200px;
     padding-top: 200px;
@@ -63,23 +63,23 @@
     justify-content: center;
     letter-spacing: 0.37px;
   }
-  
+
   .bio {
     margin-left: 200px;
     width: 60%;
     height: auto;
     letter-spacing: 0.37px;
   }
-  
+
   .connect_button {
     margin-left: 200px;
     font-size: 20px;
   }
-  
+
   .social ol {
     margin-left: 200px;
   }
-  
+
   .desktop-card,
   .card {
     background-color: white;
@@ -90,21 +90,21 @@
     margin-bottom: 30px;
     border-radius: 24px;
   }
-  
+
   .desktop-preview,
   .preview {
     grid-column: 1/-1;
     justify-self: center;
     align-self: center;
   }
-  
+
   .desktop-preview img,
   .preview img {
     margin-top: 10px;
     width: 100%;
     height: 350px;
   }
-  
+
   .desktop-details,
   .details {
     grid-column: 1/-1;
@@ -112,7 +112,7 @@
     margin-left: 50px;
     padding: 10px;
   }
-  
+
   .desktop-title,
   .title {
     margin: 10px 0;
@@ -121,32 +121,32 @@
     font-weight: 700;
     line-height: 44px;
   }
-  
+
   .desktop-info,
   .info {
     display: flex;
     overflow: hidden;
     color: #7a869a;
   }
-  
+
   .desktop-info_item,
   .info_item {
     margin-right: 15px;
     list-style-position: inside;
   }
-  
+
   .desktop-info_item:first-child,
   .info_item:first-child {
     font-weight: bold;
     list-style: none;
     color: #344563;
   }
-  
+
   .desktop-info_item:last-child,
   .info_item:last-child {
     margin-right: 0;
   }
-  
+
   .desktop-details_content,
   .details_content {
     width: 80%;
@@ -154,18 +154,18 @@
     padding: 10px 0;
     color: #344563;
   }
-  
+
   .desktop-catagories,
   .catagories {
     display: flex;
     flex-wrap: wrap;
     margin: 20px 0;
   }
-  
+
   .catagories .special {
     display: flex;
   }
-  
+
   .desktop-catagories ul li,
   .catagories ul li {
     padding: 8px;
@@ -176,7 +176,7 @@
     font-size: 14px;
     line-height: 16px;
   }
-  
+
   .desktop-default_button,
   .default_button {
     cursor: pointer;
@@ -188,37 +188,37 @@
     border-radius: 10px;
     border: 1px solid #396df2;
   }
-  
+
   .desktop-default_button:hover,
   .default_button:hover {
     color: #fff;
     background: #396df2;
   }
-  
+
   #order-4 {
     order: 1;
     flex-direction: row-reverse;
   }
-  
+
   #order-2 {
     order: 3;
     flex-direction: row-reverse;
   }
-  
+
   #order-1 {
     order: 2;
   }
-  
+
   #order-3 {
     display: none;
   }
-  
+
   .about {
     display: flex;
     align-items: baseline;
     width: 100%;
   }
-  
+
   .about-left-section {
     display: flex;
     flex-direction: column;
@@ -227,26 +227,26 @@
     height: 392px;
     margin: 50px 0 0 80px;
   }
-  
+
   .about-left-section .connect_button,
   .about-left-section .social ol {
     margin: 0;
   }
-  
+
   .about-right-section {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     margin-left: 200px;
   }
-  
+
   .about_ul {
     margin-left: 100px;
     display: flex;
     flex-direction: row;
     width: 100%;
   }
-  
+
   .ul_item {
     position: relative;
     width: 100px;
@@ -255,11 +255,11 @@
     right: 120px;
     margin: 20px 5px 20px 5px;
   }
-  
+
   #icons {
     display: none;
   }
-  
+
   .contact-form {
     background: #6070ff;
     background-image: url(./assets/desktop/contact/form/background/shapes.png);
@@ -272,7 +272,7 @@
     border-radius: 90px 0 0 0;
     margin-top: 103px;
   }
-  
+
   .contact-title {
     text-align: center;
     font-weight: 700;
@@ -281,7 +281,7 @@
     margin-bottom: 20px;
     padding-top: 103px;
   }
-  
+
   .p-contact {
     width: 569px;
     font-style: normal;
@@ -292,13 +292,13 @@
     color: #ebebff;
     padding: 24px;
   }
-  
+
   .contact-info {
     display: flex;
     flex-direction: column;
     padding: 20px 5px 5px 5px;
   }
-  
+
   .inp-form {
     width: 100%;
     height: 43px;
@@ -309,7 +309,7 @@
     color: #172b4d;
     padding: 10px 15px;
   }
-  
+
   .text-area {
     width: 450px;
     height: 160px;
@@ -321,11 +321,7 @@
     border-radius: 3px;
     padding: 10px 15px;
   }
-  
-  .contact-bar {
-    display: none;
-  }
-  
+
   .btncontact {
     width: 140px;
     height: 48px;
@@ -336,7 +332,7 @@
     font-weight: 500;
     background-color: white;
   }
-  
+
   .btncontact:hover {
     background-color: #6070ff;
     border: 1px solid white;
@@ -344,9 +340,5 @@
     font-size: 17px;
     transition: 100ms;
     cursor: pointer;
-  }
-  
-  .end-line {
-    display: flex;
   }
 }
