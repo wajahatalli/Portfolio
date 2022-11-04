@@ -38,7 +38,6 @@ nav {
   font-weight: 700;
   font-size: 18px;
   color: #6070ff;
-  transform: rotate(-5deg);
 }
 
 .hero {
@@ -322,10 +321,6 @@ nav {
   padding: 10px 15px;
 }
 
-.contact-bar {
-  text-align: center;
-}
-
 .btncontact {
   width: 140px;
   height: 48px;
@@ -345,11 +340,6 @@ nav {
   font-size: 17px;
   transition: 100ms;
   cursor: pointer;
-}
-
-.end-line {
-  margin-top: 70px;
-  margin-bottom: 2px;
 }
 
 .preview img:hover {
