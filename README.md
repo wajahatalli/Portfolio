@@ -16,7 +16,7 @@
 
 ## Sneak peek to my Portfolio Project
 
-- Portfolio: [Wajahat Ali](https://github.com/wajahatalli/Portfolio)
+- Portfolio: [Wajahat Ali](https://wajahatalli.github.io/Portfolio/)
 
 ## Authors
 
