@@ -241,7 +241,7 @@
     mix-blend-mode: multiply;
   }
 
-  .bar.active {
+  /* .bar.active {
     left: 0;
-  }
+  } */
 }
