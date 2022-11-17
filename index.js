@@ -1,15 +1,15 @@
-const hambuger = document.querySelector('.hambuger');
+const hamburger = document.querySelector('.hamburger');
 
 const navMenu = document.querySelector('.nav-menu');
 
-hambuger.addEventListener('click', () => {
-    hambuger.classList.toggle('active');
+hamburger.addEventListener('click', () => {
+    hamburger.classList.toggle('active');
 
     navMenu.classList.toggle('active');
 });
 
 document.querySelectorAll('.nav-link').forEach((n) => n.addEventListener('click', () => {
-    hambuger.classList.remove('active');
+    hamburger.classList.remove('active');
     navMenu.classList.remove('active');
 }));
 
