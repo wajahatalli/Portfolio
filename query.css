@@ -16,18 +16,18 @@
     background: white;
     padding: 0 140px;
   }
-  
+
   .hamburger {
     display: none;
   }
-  
+
   .navbar {
     display: flex;
     flex-direction: row;
     font-family: "Poppins", sans-serif;
   }
 
-.nav-menu {
+  .nav-menu {
     display: flex;
   }
 
