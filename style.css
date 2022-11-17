@@ -56,11 +56,6 @@ label {
   padding: 10px 30px;
 }
 
-header {
-  top: 0;
-  width: 100%;
-}
-
 .navbar {
   display: flex;
   justify-content: space-between;
