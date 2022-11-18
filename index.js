@@ -118,3 +118,11 @@ window.addEventListener('DOMContentLoaded', () => {
     );
     document.getElementById('cards').innerHTML = displayCards.join('');
 });
+
+// Contact form validation script
+
+const form = document.querySelector('form');
+const emailAdrdress = document.getElementById('email');
+const emailPattern = /^[a-z0-9._-]+@[a-z0-9.-]+\.[a-z]{2,4}$/g;
+const msgError = document.querySelector('#message-error');
+const msgSuccess = document.querySelector('#message-success');
