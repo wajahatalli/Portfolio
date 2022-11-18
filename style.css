@@ -56,6 +56,43 @@ label {
   padding: 10px 30px;
 }
 
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  padding: 25px 25px;
+}
+
+.nav-branding {
+  font-size: 18px;
+  color: #6070ff;
+  animation: mymove 5s infinite;
+}
+
+.nav-menu {
+  display: none;
+}
+
+.nav-menu.active {
+  display: block;
+  -webkit-backdrop-filter: blur(7px);
+  backdrop-filter: blur(10px);
+  mix-blend-mode: multiply;
+}
+
+.nav-link {
+  transition: all 0.5s ease;
+}
+
+.hamburger {
+  display: block;
+  cursor: pointer;
+  position: absolute;
+  top: 1.5rem;
+  right: 20px;
+}
+
 .p-t {
   font-family: "Poppins", sans-serif;
   color: #091e42;
