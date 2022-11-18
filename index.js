@@ -155,13 +155,13 @@ formLocal.addEventListener('submit', (e) => {
   localStorage.setItem('DATA', JSON.stringify(obj));
 });
 
-  const getData = localStorage.getItem('DATA');
-  const getDataValue = JSON.parse(getData);
+const getData = localStorage.getItem('DATA');
+const getDataValue = JSON.parse(getData);
 
-  window.addEventListener('load', () => {
-    if (localStorage.getItem('DATA')) {
-      document.querySelector('#name').value = getDataValue.fullname;
-      document.querySelector('#email').value = getDataValue.emailAdress;
-      document.querySelector('#message').value = getDataValue.message;
-    }
-  });
+window.addEventListener('load', () => {
+  if (localStorage.getItem('DATA')) {
+    document.querySelector('#name').value = getDataValue.fullname;
+    document.querySelector('#email').value = getDataValue.emailAdress;
+    document.querySelector('#message').value = getDataValue.message;
+  }
+});
