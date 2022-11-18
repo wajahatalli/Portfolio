@@ -153,7 +153,6 @@ formLocal.addEventListener('submit', (e) => {
   };
 
   localStorage.setItem('DATA', JSON.stringify(obj));
-});
 
 const getData = localStorage.getItem('DATA');
 const getDataValue = JSON.parse(getData);
