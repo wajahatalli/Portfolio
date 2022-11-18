@@ -83,7 +83,7 @@ onModalClose(p);
 
 window.addEventListener('DOMContentLoaded', () => {
   const displayCards = projects.map(
-      (project) => `
+    (project) => `
       <div id=${project.id} >
         <div class="work-info1">
             <div class="image-container">
@@ -106,19 +106,18 @@ window.addEventListener('DOMContentLoaded', () => {
               </p>
               <ul class="stack-icon">
               ${project.technologies
-          .map((tech) => `<li class="stack">${tech}</li>`)
-          .join('')}
+    .map((tech) => `<li class="stack">${tech}</li>`)
+    .join('')}
               </ul>
               <button id=${project.id} type="button" onclick="onModalOpen(${
-          project.id
-      })" class="btn" id="btn-4">See Project</button>
+  project.id
+})" class="btn" id="btn-4">See Project</button>
             </div>
           </div> 
       </div>`,
   );
   document.getElementById('cards').innerHTML = displayCards.join('');
 });
-  
 
 // Contact form validation script
 
@@ -140,4 +139,3 @@ form.addEventListener('submit', (e) => {
     setTimeout(() => { form.submit(); }, 6000);
   }
 });
-
