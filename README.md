@@ -26,6 +26,13 @@
 -   Twitter: [@wajahatali](https://twitter.com/WajahatAli09)
 -   LinkedIn: [@wajahatali](https://linkedin.com/in/wajahat-ali-797768136)
 
+👤 Amanuel Worku 
+
+- GitHub: [AmanWorku](https://github.com/AmanWorku)
+- LinkedIn: [Amanuel(Aman) Worku](https://www.linkedin.com/in/amanuel-worku-844903213/)
+- Twitter: [@AmexWorku](https://twitter.com/AmexWorku)
+
+
 ## Show your support
 
 Give a ⭐️ if you like this project!
